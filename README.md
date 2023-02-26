@@ -44,10 +44,10 @@ Create a virtual environment for the analyzer:
 
 ```bash 
 # create the environment with python version=3.8
-conda create -n sgnlp_finance python=3.8 -y
+conda create -n dashboard python=3.8 -y
 
 # activate your environment 
-conda activate sgnlp_finance 
+conda activate dashboard
 ```
 
 ## 2. Setting up project 
@@ -58,7 +58,7 @@ In the appropriate working folder, clone this repo:
 git clone https://github.com/tw-ngwan/sgnlp_finance
 
 # change directory and enter project 
-cd sgnlp_finance 
+cd django_react_trial
 ``` 
 
 ## 3. Install required Python packages 
@@ -120,7 +120,7 @@ python manage.py runserver 0.0.0.0:8000
 
 
 # Footnotes 
-If the evaluation of the model, throws an authentication error, it may be due to the use of relative filepaths. In sgnlp_finance/sgnlp_finance_app/model/evaluate.py, try replacing the relative filepaths with absolute filepaths to the module. The relative filepaths may be corrupted because SGNLP is calling a cached filepath
+If the evaluation of the model, throws an authentication error, it may be due to the use of relative filepaths. In django_react_trial/dashboard_app/model/evaluate.py, try replacing the relative filepaths with absolute filepaths to the module. The relative filepaths may be corrupted because SGNLP is calling a cached filepath
 
 Whenever any of the JavaScript files are updated, run the following commands to update
 
