@@ -1,10 +1,11 @@
 # Overview 
-The Finance Language Analyzer is an analytics engine that analyzes news articles and returns sentiments about different stocks. It runs on Django on the backend and React on the frontend, and uses the SGNLP module to deliver its analyses. 
+Darwin is an analytics engine that analyzes research reports and provides powerpoint slides visualizing them. It runs on Django on the backend and React on the frontend. 
 
-# Developer 
-- Ngwan Teng Wei 
-Using sgnlp module downloaded from here 
-https://aisingapore.org/aiproducts/nlp-hub/?_ga=2.40195622.565862378.1675670806-1698464324.1670228435
+# Developers
+- Ngwan Teng Wei \
+- Leong Eu-Shaun \
+- Jerry Han Jiatao \ 
+- Shao Yang \
 
 ## Documentation 
 
@@ -55,7 +56,7 @@ conda activate dashboard
 In the appropriate working folder, clone this repo: 
 
 ```bash 
-git clone https://github.com/tw-ngwan/sgnlp_finance
+git clone https://github.com/tw-ngwan/darwin
 
 # change directory and enter project 
 cd django_react_trial
